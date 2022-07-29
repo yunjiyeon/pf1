@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코딩-빙그레</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title_me.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main_me.css">
+    <link rel="stylesheet" href="css/footer_me.css">
+
+    
+</head>
+<body>
+    <!-- 상단 영역 -->
+    <header>
+        <!-- div.inner>(h1>a)+(ul>li*5>a)+ul>li*2 -->
+        <div class="inner">
+            <h1><a href="#">빙그레</a></h1>
+    
+            <ul class="gnb">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">제품소개</a></li>
+                <li><a href="#">지속가능경영</a></li>
+                <li><a href="#">투자정보</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+            <ul class="enb">
+                <li>
+                    <select name="" id="">
+                        <option value="korea" selected>KR</option>
+                        <option value="english">EN</option>
+                        <option value="china">CN</option>
+                    </select>
+                </li>
+                <li><a href="">전제메뉴보기</a></li>
+            </ul>
+           <ul class="tnb">
+            <li><a href="#">구매포털시스템</a></li>
+            <li><a href="#">인재채용</a></li>
+           </ul>
+        </div>
+
+    
+    </header>
+    <!-- 타이틀 영역 -->
+    <div id="title">
+        <form action="" class="search">
+            <input type="text" placeholder="제품명을 입력하세요">
+            <button>SEARCH</button>
+        </form>
+    
+        <h2 class="hide">빙그레 해시태그</h2>
+        <ul class="hash">
+            <li><a href="#">#링키바</a></li>
+            <li><a href="#">#더단백</a></li>
+            <li><a href="#">#요플레프로틴</a></li>
+            <li><a href="#">#바나나맛우유</a></li>
+        </ul>
+    </div>
+    <!-- 내용 영역 -->
+    <main>
+        <section id="taste">
+            <div class="inner">
+                <h2 class="h2">행복한 빙그레의 맛!</h2>
+                <ul class="list">
+                    <li><a href="#">아이스크림</a></li>
+                    <li><a href="#">우유/치즈</a></li>
+                    <li><a href="#">발효유</a></li>
+                    <li><a href="#">커피</a></li>
+                    <li><a href="#">음료</a></li>
+                    <li><a href="#">주스</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <!-- 하단 영역 -->
+    <footer>
+        <!-- footer>div.inner>(div.left>(h1>a)+address+p.copyrighy)+div.right>(ul.personal>li*2>a)+div.bottom>(ul.sns>li*3>a)+ul.banner>li*2>a -->
+        <div class="inner flex flexBetween padding50">
+            <div class="left flex flexColumn flexBetween">
+                <h1><a href="#">빙그레</a></h1>
+                <address class="p">회사명 : 빙그레<br/>
+                    경기도 남양주시 다산동 4344-3 / 경기도 남양주시 다산순환로 45(다산동)</address>
+                <p class="copyrighy p">ⓒ Binggrae all rights reserved.</p>
+            </div>
+            <div class="right flex flexColumn flexBetween">
+                <ul class="personal flex">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">오시는길</a></li>
+                </ul>
+                <div class="bottom flex">
+                    <ul class="sns flex">
+                        <li><a href="#">인스타그램</a></li>
+                        <li><a href="#">유투브</a></li>
+                        <li><a href="#">tft mall</a></li>
+                    </ul>
+                    <a href="#">Flagship store <strong>Soft Lab</strong></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
